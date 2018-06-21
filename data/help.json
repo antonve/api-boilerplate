@@ -1,0 +1,11 @@
+{
+	"api": "Portfolio API",
+	"version": "1",
+	"resources": [
+		{
+			"uri": "/api/ping",
+			"method": "GET",
+			"description": "Health check"
+		},
+	]
+}

@@ -1,0 +1,4 @@
+connection_string: user=ubuntu sslmode=disable dbname=
+database: circle_test
+debug: true
+migrations_path: migrations/data

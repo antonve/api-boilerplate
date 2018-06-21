@@ -1,0 +1,4 @@
+connection_string: user=anton sslmode=disable dbname=
+database: api_dev
+debug: true
+migrations_path: migrations/data

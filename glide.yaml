@@ -1,0 +1,14 @@
+package: github.com/antonve/api-boilerplate
+import:
+- package: github.com/DavidHuie/gomigrate
+- package: github.com/lib/pq
+- package: github.com/jmoiron/sqlx
+- package: github.com/go-yaml/yaml
+- package: github.com/labstack/echo
+  version: ~3.0
+- package: github.com/tylerb/graceful
+  version: ^1.2.15
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
